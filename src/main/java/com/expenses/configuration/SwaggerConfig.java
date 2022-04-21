@@ -38,29 +38,7 @@ public class SwaggerConfig {
                 .title("Welcome to Expenses Management")//
                 .description("Expenses, used to manage expenses")//
                 .version("1.0.0")//
-//                .license("Taonga Portal").licenseUrl("http://qa.power-recruit.net/")//
-//                .contact(new Contact(null, null, "support@powerecruit.com"))//
                 .build();
     }
-
-//    private ApiKey apiKey() {
-//        return new ApiKey("Authorization", "Authorization", "header");
-//    }
-
-//    private SecurityContext securityContext() {
-//        return SecurityContext.builder()
-//                .securityReferences(defaultAuth())
-//                .forPaths(PathSelectors.any())
-//                .build();
-//    }
-
-//    private List<SecurityReference> defaultAuth() {
-//        AuthorizationScope authorizationScope = new AuthorizationScope("global", "accessEverything");
-//        AuthorizationScope[] authorizationScopes = new AuthorizationScope[1];
-//        authorizationScopes[0] = authorizationScope;
-//        return Arrays.asList(new SecurityReference("Authorization", authorizationScopes));
-//    }
-
-
 
 }
